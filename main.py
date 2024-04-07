@@ -14,7 +14,7 @@ screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT - 50), pygame.RESI
 # Load images
 
 # lode arows
-IMG_PATH_arow = "C:\\Users\paulk\Desktop\stratagem hero\\"
+IMG_PATH_arow = "stratagem hero\\"
 
 img_super_earth = pygame.image.load(os.path.join(IMG_PATH_arow, "cropped-super_earth2.png"))
 img_super_earth = pygame.transform.scale(img_super_earth, (int(SCREEN_WIDTH / 3), int(SCREEN_HEIGHT / 2)))
@@ -44,7 +44,7 @@ img_arow_red_right = pygame.transform.rotate(img_arow_red, 0)
 
 
 # lode stategums brige
-IMG_PATH_brige = "C:\\Users\paulk\Desktop\stratagem hero\Helldivers-2-Stratagems-icons-svg-master\Helldivers-2-Stratagems-icons-svg-master\Bridge"
+IMG_PATH_brige = "Helldivers-2-Stratagems-icons-svg-master\Helldivers-2-Stratagems-icons-svg-master\Bridge"
 
 HMG_Emplacement = pygame.image.load(os.path.join(IMG_PATH_brige, "HMG Emplacement.svg"))
 Orbital_EMS_Strike = pygame.image.load(os.path.join(IMG_PATH_brige, "Orbital EMS Strike.svg"))
