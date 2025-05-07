@@ -190,7 +190,7 @@ while run:
             timer_value += 1
         if not len(random_numbers) > strategum_int:
             print("your skore is 1000000")
-            difekulty += 1
+            d += 1
             start_time = time.time()
             random_numbers = rnadom_numbers()
             screen.fill((0, 0, 0))
